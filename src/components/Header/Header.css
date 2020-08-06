@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__logo {
+  height: 40px;
+
+  object-fit: contain;
+}
+.header__icon {
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  .header {
+    margin-left: -50px;
+  }
+}
